@@ -10,8 +10,8 @@ pipeline {
 
 
     environment {
-        LOCAL_SOURCE_DIR = "/var/jenkins_home/workspace/javatest"
-        LOCAL_BUILD_WORKDIR = "/var/jenkins_home/workspace/javatest/springframework_helloworld/src"
+        LOCAL_SOURCE_DIR = "/var/jenkins_home/workspace/demo"
+        LOCAL_BUILD_WORKDIR = "/var/jenkins_home/workspace/demo/springframework_helloworld/src"
    }
     
     stages {
